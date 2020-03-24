@@ -1,4 +1,4 @@
-import requests
+import requests  
 import os
 print("____________________Connection_localhost_________________") #Подключение к моему локальному серверу.
 loc = requests.post('http://localhost/') #Название сервера к которому хотим подключиться. 
